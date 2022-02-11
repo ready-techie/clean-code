@@ -1,7 +1,7 @@
 # Clean Code - 12. 창발성
 
 Created: January 15, 2022
-Created by: Anonymous
+Created by: Lee Anne
 Tags: Clean Code
 
 # 소프트웨어 설계를 위한 4가지 원칙 - by 켄트백
