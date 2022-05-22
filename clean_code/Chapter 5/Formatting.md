@@ -7,7 +7,7 @@
 ## The Purpose of Formatting
 
 - `communication`: communication is the professional developer’s first order of business.
-- Your style and discipline survives, even though your code does not
+- Your style and discipline survive, even though your code does not
   - Original code는 계속 변할 수 있지만 코딩 스타일, 가독성은 남아 유지보수를 원활하게 하고 확장성을 향상시킨다.
 
 ## Vertical Formatting
