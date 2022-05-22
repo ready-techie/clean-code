@@ -41,12 +41,13 @@
 - Concepts that are closely related should be kept vertically close to each other.
   - 보통 같은 파일에 있으며, 다른 파일에 있으려면 합당한 이유가 필요하다
   - 이것이 `Protected variables`를 피해야 하는 이유다
-- **Variable Declarations**: Variables should be declared as close to their usage as possi-
-  ble.
+- **Variable Declarations**: Variables should be declared as close to their usage as possible.
 - **Instance variables**: should be declared at the top of the class. This
-  should not increase the vertical distance of these variables. - 어디 위치하느냐는 아직 논쟁이다. (C++ -> scissors rule, Java -> top)
+  should not increase the vertical distance of these variables.
+  - 어디 위치하느냐는 아직 논쟁이다. (C++ -> scissors rule, Java -> top)
 - **Dependent Functions**: If one function calls another, they should be vertically close,
-  and the caller should be above the callee, if at all possible. - natural flow
+  and the caller should be above the callee, if at all possible.
+  - natural flow
 - **Conceptual Affinity**: Stronger conceptual affinity, Less vertical distance
   - ex. one function calling another
   - Affinity might be caused because a group of functions perform a similar operation.
@@ -108,7 +109,7 @@ while (dis.read(buf, 0, readBufferSize) != -1)
 
 ## Team Rules
 
-- A team of developers should agree upon a single formatting style, and then every member of that team hould use that style.
+- A team of developers should agree upon a single formatting style, and then every member of that team should use that style.
 
 ## Uncle Bob's Formatting Rules
 
