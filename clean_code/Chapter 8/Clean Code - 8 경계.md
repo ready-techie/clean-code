@@ -1,7 +1,7 @@
 # Clean Code - 8. 경계
 
 Created: June 17, 2022
-Created by: Anonymous
+Created by: Anne Lee
 Tags: Clean Code
 
 - 시스템에 들어가는 모든 소프트웨어를 다 직접 만들지는 않는다. 그렇다면 어떤 방식으로 소프트웨어를 작성하고 오픈소스나 패키지를 활용하는게 좋을까?
@@ -44,9 +44,6 @@ Tags: Clean Code
     
     - 이거 뭔가 현재 CMS 프로젝트 진행 방식과 유사해 보인다…!실제로 가상의 기획을 기반으로 예측하며 작업중인지라!
 
-![Fake Transmitter 클래스로 테스트할 수 있도록 설계하기. Interface로 입력 받아서 코드에서 통제할 수 있도록 만들기.]![IMG_1555](https://user-images.githubusercontent.com/15176192/175812776-f23fcb80-23b7-426f-859e-fe5df6357916.jpg)
-
-Fake Transmitter 클래스로 테스트할 수 있도록 설계하기. Interface로 입력 받아서 코드에서 통제할 수 있도록 만들기.
 
 ## 깨끗한 경계
 
