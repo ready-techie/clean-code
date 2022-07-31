@@ -7,7 +7,9 @@
 
 ![clean code book cover](https://user-images.githubusercontent.com/15176192/153569540-e94efe50-f4f1-41a6-a0f7-333c018aa845.jpeg)
 
-#### 22년도 2번째 선정책: TBD
+#### 22년도 2번째 선정책: Cracking the Coding Interview 👊
+
+<img src="https://user-images.githubusercontent.com/15176192/182012925-6142402f-8c02-4523-ae2e-795f9462126f.jpeg" width=45% height=45% />
 
 ---
 같이 하실 분들은 언제든 환영입니다 😄(단, Ready-Techie 발표 경험자 대상)
