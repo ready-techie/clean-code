@@ -89,8 +89,53 @@ console.log(solution("Tact Coa"));
 
 ### 5
 - 다른게 1개 이하인지?
+- 해설참고함
 ```js
+const solution = (str1, str2) => {
+  if (str1.length === str2.length) {
+    return checkReplace(str1, str2);
+  } else if (str1.length + 1 === str2.length) {
+    return checkInsert(str1, str2);
+  } else if (str1.length - 1 === str2.length) {
+    return checkInsert(str2, str1);
+  }
 
+  return false;
+};
+
+const checkReplace = (str1, str2) => {
+  let foundDifference = false;
+  for (let i = 0; i < str1.length; i++) {
+    if (str1[i] !== str2[i]) {
+      if (foundDifference) {
+        return false;
+      }
+      foundDifference = true;
+    }
+  }
+
+  return true;
+};
+const checkInsert = (shortStr, longStr) => {
+  let shortIndex = 0;
+  let longIndex = 0;
+  while (shortIndex < shortStr.length && longIndex < longStr.length) {
+    if (shortStr[shortIndex] === longStr[longIndex]) {
+      shortIndex++;
+      longIndex++;
+    } else {
+      if (shortIndex !== longIndex) {
+        return false;
+      }
+
+      longIndex++;
+    }
+  }
+
+  return true;
+};
+
+console.log(solution("bake", "ake"));
 ```
 
 ### 6
