@@ -172,8 +172,48 @@ console.log(solution("aabcccccaaa"));
 ```
 
 ### 8
+- 처음엔 이렇게 풀었다가
 ```js
+const solution = (arr) => {
+  const N = arr.length;
+  const M = arr[0].length;
+  let i,
+    j = 0;
+  for (let iii = 0; iii < N; iii++) {
+    for (let jjj = 0; jjj < M; jjj++) {
+      if (arr[iii][jjj] === 0) {
+        i = iii;
+        j = jjj;
+        break;
+      }
+    }
+  }
 
+  const resultArr = arr;
+  for (let ii = 0; ii < N; ii++) {
+    console.log("ii", i);
+    if (ii === i) {
+      resultArr[ii] = new Array(M).fill(0);
+      continue;
+    }
+    for (let jj = 0; jj < M; jj++) {
+      if (jj === j) {
+        console.log(ii + " " + jj);
+        resultArr[ii][jj] = 0;
+      }
+    }
+  }
+
+  return resultArr;
+};
+
+console.log(
+  solution([
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 0, 1, 1, 1]
+  ])
+);
 ```
 
 ### 9
