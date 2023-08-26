@@ -3,6 +3,12 @@
 ### 좋은 개발자는 꾸준히 학습하고 책 읽기를 게을리하지 않는다고 합니다. Ready-Techie 멤버들끼리 모여 기술책 한 권을 선정하여 읽고 학습하며 토의하는 목적으로 독서모임을 운영합니다. 자세한 운영 방침은 [Wiki](https://github.com/ready-techie/clean-code/wiki)를 참고해주세요.
 
 ---
+#### 23년도 1번째 선정책: The Missing README: A Guide for the New Software Engineer - Chris Riccomini, Dmitriy Ryaboy 📝
+
+<img src="https://github.com/ready-techie/techie-book-club/assets/15176192/5042eee8-78cd-4826-ab79-42251f7ae608" width=45% height=45% />
+
+
+---
 #### 22년도 1번째 선정책: Clean Code - Robert C. Martin 🧹
 
 <img src="https://user-images.githubusercontent.com/15176192/153569540-e94efe50-f4f1-41a6-a0f7-333c018aa845.jpeg" width=45% height=45% />
