@@ -1,7 +1,7 @@
 # Set to true to add reviewers to pull requests
-addReviewers: false
+addReviewers: true
 # Enable to add reviewers as assignees.
-addAssignees: true
+addAssignees: author
 
 # A list of reviewers to be added to pull requests (GitHub user name)
 reviewers: 
